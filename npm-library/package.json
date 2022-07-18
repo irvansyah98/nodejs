@@ -1,0 +1,16 @@
+{
+  "name": "npm-library-by-irvan",
+  "version": "1.1.0",
+  "description": "belajar npm nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iervan",
+  "license": "ISC",
+  "exports":{
+    ".":"./index.js",
+    "./number":"./number.js"
+  }
+}
